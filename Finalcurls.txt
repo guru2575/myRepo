@@ -1,0 +1,3 @@
+curl --request DELETE http://localhost:8081/drpatients/resourcesDr/delete/3
+curl --request POST --data "doctorName=SteveDr" --data "patients=mary!CC123" http://localhost:8081/drpatients/resourcesDr/create
+curl --request PUT --data "id=2&doctorName=UpSteveDr" http://localhost:8081/drpatients/resourcesDr/update
